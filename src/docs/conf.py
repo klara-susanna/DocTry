@@ -11,6 +11,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath('..'))
 
+
 project = 'ResTry'
 copyright = '2024, Merten Stender'
 author = 'Merten Stender'

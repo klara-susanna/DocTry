@@ -9,6 +9,9 @@ build:
 python:
   install:
     - requirements: requirements.txt  # Install dependencies from requirements.txt
+    # Install our python package before building the docs
+    - method: pip
+        path: ./src/restry
 
 sphinx:
   configuration: src/docs/conf.py  # Path to your Sphinx configuration file
