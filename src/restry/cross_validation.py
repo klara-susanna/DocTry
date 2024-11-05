@@ -12,7 +12,7 @@ def cross_val(model, X: np.ndarray, y: np.ndarray, n_splits: int, metric: str = 
     Parameters
     ----------
     model : object
-        The RC model to be validated. Additional Comment Here.
+        The RC model to be validated.
     X : np.ndarray
         Feature matrix.
     y : np.ndarray
